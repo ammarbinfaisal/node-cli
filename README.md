@@ -8,4 +8,4 @@ To use the app run **node index.js** with the suffixes as required
 * to read a note:    **read "*the title of the note*"**
 * to list all notes: **list**
 
-###MADE ON 15th APRIL 2018
+### MADE ON 15th APRIL 2018
