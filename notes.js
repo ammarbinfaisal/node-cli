@@ -16,7 +16,7 @@ const readNotes = () => {
 }
 
 const writeNotes = () => {
-     fs.writeFileSync('./notes.json', JSON.stringify(notes), {
+     fs.writeFileSync('./notes.json', JSON.stringify(notes, undefined, 4), {
           encoding: 'utf-8'
      });
 }
