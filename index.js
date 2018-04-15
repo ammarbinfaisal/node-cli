@@ -24,7 +24,7 @@ switch (command) {
           notes.read(title);
           break;
      case 'list':
-          echo('listing all notes...');
+          echo('listing all notes...\n');
           notes.list();
           break;
      case 'remove':
